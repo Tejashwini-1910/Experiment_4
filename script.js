@@ -1,7 +1,7 @@
 // Arrow function for fetching weather data using async/await
 const getWeather = async () => {
   const city = document.getElementById("city").value;
-  const apiKey = "b00c84106ba311bc5382f780bcf5e2c8"; 
+  const apiKey = "API_KEY"; 
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
