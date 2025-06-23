@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+input {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 200px;
+}
+canvas {
+  margin-top: 2rem;
+}
